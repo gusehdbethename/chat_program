@@ -76,7 +76,7 @@ void *send_msg(void *arg){
     }
 }
 
-//  receive message from server, and show them ib terminal
+//  receive message from server, and show them in terminal
 void *recv_msg(void *arg){
     int sock = *(int *)arg;
     char message[BUF_SIZE];
